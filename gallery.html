@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <!-- =========================== Favicon ============================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- ================================================================= -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Blog and Gallery Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Emily Tsui</h1>
+    </header>
+    <nav id="articles">  
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>   <!--#links within page with id-->
+        <a href="contact.html">Contact</a>
+
+    </nav>
+    <main>
+        <section>
+            <article class="gallery">
+                <!--    For high definition screens visit https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/
+                     srcset="images/hong-kong-window-dark-rain.jpg 320w, images/hong-kong-window-dark-rain.jpg 640w, images/hong-kong-window-dark-rain.jpg 1080w"
+                    sizes="(max-width: 600px) 100vw, (max-width: 900px) 33vw, 254px"
+
+                -->
+            <figure>            
+                <img 
+                    src="images/hong-kong-window-dark-rain.jpg"
+                    alt="Dark gloomy hotel window in faint green on a rainy afternoon during COVID-19 quarantine in Admiralty, Hong Kong."
+                    title="© 2024 Emily Tsui"
+                   
+                />
+                <figcaption>Hotel window during COVID-19 quarantine in Admiralty, Hong Kong.</figcaption>
+            </figure>
+            <figure>            
+                <img 
+                    src="images/carlsbad-ranunculus-flowers.jpg"
+                    alt="A portrait line of flowers in a sunny field. In primary focus are yellow Ranunculus flowers followed by
+                        some red flowers to the right side of the picture."
+                    title="© 2024 Emily Tsui" 
+                />
+                <figcaption>Carlsbad field of flowers in Carlsbad, CA.</figcaption>
+            </figure>
+            <figure>            
+                <img 
+                    src="images/seattle-window-view-lamp.jpg"
+                    alt="Dark picture with daylight window looking out into another house across the street. A man is standing at the window 
+                        to the right looking out. In the foreground there is a bed and a lamp. Lamp on the left is glowing in orange."
+                    title="© 2024 Emily Tsui"
+                />
+                <figcaption>My dad looking out into a suburb in Seattle during Spring season.</figcaption>
+            </figure>
+            </article>
+            
+        </section>
+      
+      </main>
+      <footer>
+        <p>&copy; 2024 Emily Tsui</p>
+      </footer>
+</body>
+</html>
