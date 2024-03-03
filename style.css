@@ -20,19 +20,25 @@
 :root {
     --custom-color-name:;
     --custom-embellishment-name:;
+    --mint: #CEF2C4;
   }
   
   /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
   body {       /* Can alternatively define in html {}. */
     background-color:;
-    background-image:;
-    color:;
+    background-attachment: fixed;
+    background-image: url(images/background-green.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  var(--mint);
     font-family: 'Lato', generic; /* Define with at least one font name and its related generic family name.*/
     font-size:1.2em;
     line-height:1.15;
     margin:;
     padding:;
     max-width:;
+    
   }
   
   /*  ----- Page layout blocks -----  */
