@@ -58,8 +58,8 @@
   div {}
   aside {}
   footer {
-    background-color: var(--leaf);
-    color: var(--forest)
+    background-color: var(--pastel-green);
+    color: var(--forest);
   }
   
   /* ----- Anchors ----- Text links */
@@ -71,7 +71,7 @@
   
   /*  ----- Navigation ----- Override text links for navigation only.  */
   nav {
-    background-color: var(--pastel-green);
+    background-color: var(--leaf);
   }
   nav a {}
   nav a:hover {}
@@ -86,7 +86,7 @@
   
   h1 {
     font-family: 'Playfair Display', monospace;
-    color: var(--forest);
+    color: var(--mint);
     font-size: 2.5em;
   }
   h2 {
